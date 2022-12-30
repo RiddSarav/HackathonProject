@@ -1,0 +1,161 @@
+@font-face {
+  font-family: lemon;
+  src: url(Lemon_Days.otf);
+}
+
+
+
+
+.button {
+  text-decoration: none;
+  color: #2F3930;
+  padding: 5px 9px 5px 9px;
+  border: 1px solid #282F29;
+  background: #A8F3AF;
+}
+
+.title {
+  font-weight: 600;
+  font-family: inherit;
+  font-size: 40px;
+  color: #227C2F;
+}
+body {
+  font-family: lemon;
+  margin: 0px;
+  background-color: rgb(255, 253, 208);
+}
+h2{
+  margin: inherit;
+}
+.nav {
+  margin: none;
+  padding: none;
+  border: none;
+  width: 100%;
+  float: left;
+}
+ul {
+  list-style-type: none;
+  margin: auto;
+  padding: 0;
+  overflow: hidden;
+  background: #ECEAC0;
+}
+.logo{
+  float: right;
+  padding-right: 8px;
+  font-family: lemon;
+}
+li {
+  float: left;
+}
+#symptoms{
+border: none;
+padding: 5px;
+/* font: 24px/36px sans-serif; */
+width: 150px;
+height: 445.77px;
+overflow: scroll;
+text-align: left;
+background: #ECEAC0;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+li a {
+  display: block;
+  color: #998551;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+h3{
+  margin: 0;
+  padding: 0;
+
+}
+li a:hover:not(.current) {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.current {
+  background-color: rgba(0, 225, 0, 0.5);
+}
+
+
+
+.formele {
+  width: 80%;
+  padding: 12px 20px;
+  margin: 10px 0;
+  border: 2px black;
+  box-sizing: border-box;
+}
+
+table {
+  background-color: rgba(255, 127, 99, 0.9);
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 600px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.sub {
+  	background: #E76E54;
+  	padding: 10px 30px;
+  	margin-left: auto;
+    margin-right: auto;
+  	font-family: lemon;
+  	font-size: inherit;
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+
+}
+
+.haha2 {
+  height:500px;
+  background-color: rgb(255, 253, 208);
+  255, 125, 96);
+  font-family: lemon;
+
+}
+body{
+  text-align: center;
+}
+.attempt2{
+
+  text-align: center;
+ display: grid;
+ grid-template: auto;
+ grid-template-columns: auto 600px 150px auto;
+}
+.floatside{
+  /* display: inline-block; */
+margin: auto;}
+.center {
+  text-align: center;
+  margin: auto;
+}
+
+#symptoms{
+
+}
+.center2 {
+  margin-left: auto;
+  margin-right: auto;
+  width: 19%;
+  height: 70%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.contact {
+  width: 1000px;
+  height: 700px;
+}
+.size {
+  font-size: 25px;
+  text-align: center;
+}
