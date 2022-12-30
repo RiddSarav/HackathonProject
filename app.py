@@ -4,17 +4,17 @@ from flask import *
 app = Flask(__name__)
 @app.route('/')
 def hello_world():
-    return render_template('index.html')
+    return render_template('index2.html')
 
 
-@app.route('/home', methods=['GET', 'POST'])
+@app.route('/form', methods=['GET', 'POST'])
 def home():
     if request.method == 'POST':
-        name = int(request.form.get('name'))
-        username = int(request.form.get('username'))
-        user=request.form.get("user")
+        gender = request.form.get('gender')
+        birth = int(request.form.get('birth'))
+        number=request.form.get('number')
 
-        return SymptomCheck(name,username,user)
-    return render_template('diagnose.html')
+        return SymptomCheck(birth,number,gender)
+    return render_template('form.html')
 if __name__ == '__main__':
     app.run()
